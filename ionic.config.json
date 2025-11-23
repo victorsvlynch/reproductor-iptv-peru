@@ -1,0 +1,7 @@
+{
+  "name": "reproiptvperu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

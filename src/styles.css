@@ -1,0 +1,12 @@
+:root {
+  --ion-color-primary: #d52b1e;
+  --ion-background-color: #fff;
+  --ion-text-color: #222;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-background-color: #121212;
+    --ion-text-color: #eee;
+  }
+}
+ion-app, html, body { height: 100%; background: var(--ion-background-color); color: var(--ion-text-color); }
